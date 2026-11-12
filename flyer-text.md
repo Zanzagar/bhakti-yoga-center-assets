@@ -9,7 +9,8 @@ Status key: ✅ requested · ⏳ to confirm · ➖ removed at the organizer's re
 - ✅ Thursday, November 19 · 5–8 PM
 - ✅ Bhakti Yoga Center
 - ⏳ 322B E. College Ave, State College (from public listings, not yet confirmed)
-- ✅ Prasadam served · Dinner included
+- ✅ Prasadam served
+- ➖ "Dinner included"
 - ➖ "sanctified vegetarian food"
 - ➖ "All are welcome"
 - ➖ The "Kartik" label above the title
@@ -22,4 +23,4 @@ A 3-hour kirtan in the holy month of Kartik
 Thursday, November 19 · 5–8 PM
 Bhakti Yoga Center
 322B E. College Ave, State College
-Prasadam served · Dinner included
+Prasadam served
