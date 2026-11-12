@@ -1,6 +1,6 @@
 # Candlelight Kirtan: flyer text
 
-Updated Nov 11, 2026, for the four round-two options (A Marigold, B Saffron, C Blue and Gold, D Studio). All four carry the same text; only the layout and line breaks differ.
+Updated Nov 11, 2026, for the four round-two options (A Marigold, B Saffron, C Blue and Gold, D Studio). Each option comes in two sizes, feed (1080×1350) and story (1080×1920). All eight carry the same text; only the layout and line breaks differ.
 
 Status key: ✅ requested or confirmed · ➖ removed at the organizer's request
 
