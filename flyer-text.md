@@ -24,3 +24,21 @@ Thursday, November 19 · 5–8 PM
 Bhakti Yoga Center
 322B E. College Ave, State College
 Prasadam served
+
+## Suggested Instagram post text
+
+Added Nov 11, 2026, for pasting under the feed image. It uses only the wording on the flyers (no new facts, none of the removed lines), so the organizer can change anything she likes.
+
+```
+🪔 Candlelight Kirtan 🪔
+
+A 3-hour kirtan in the holy month of Kartik. Join us!
+
+Thursday, November 19 · 5–8 PM
+Bhakti Yoga Center
+322B E. College Ave, State College
+
+Prasadam served
+
+#kirtan #candlelightkirtan #kartik #harekrishna #bhaktiyoga #statecollege
+```

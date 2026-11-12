@@ -5,7 +5,7 @@
 <meta property="og:url" content="https://zanzagar.github.io/bhakti-yoga-center-assets/">
 <meta property="og:image" content="https://zanzagar.github.io/bhakti-yoga-center-assets/preview.jpg">
 <meta property="og:image:width" content="600"><meta property="og:image:height" content="750">
-<style>body{font-family:system-ui,sans-serif;background:#f4efe8;color:#2a1d18;margin:0;padding:24px 16px;max-width:1100px;margin-inline:auto}h1{font-size:22px;margin:0 0 4px}h2{font-size:18px;margin:0 0 4px;color:#7a2a12}h3{font-size:16px;margin:28px 0 8px;color:#7a2a12}p{color:#4a3a32;margin:0 0 14px;line-height:1.45}.opt{background:#fff;border-radius:10px;padding:14px;margin:18px 0;box-shadow:0 1px 3px rgba(0,0,0,.08)}.opt p{margin:0 0 10px}.pair{display:grid;grid-template-columns:1.42fr 1fr;gap:10px;align-items:start}figure{margin:0}img{width:100%;height:auto;display:block;border-radius:4px}figcaption{font-size:13px;margin-top:6px;line-height:1.4}a{color:#9a3a14}ul{color:#4a3a32;padding-left:20px;line-height:1.5}li{margin-bottom:6px}</style></head><body>
+<style>body{font-family:system-ui,sans-serif;background:#f4efe8;color:#2a1d18;margin:0;padding:24px 16px;max-width:1100px;margin-inline:auto}h1{font-size:22px;margin:0 0 4px}h2{font-size:18px;margin:0 0 4px;color:#7a2a12}h3{font-size:16px;margin:28px 0 8px;color:#7a2a12}p{color:#4a3a32;margin:0 0 14px;line-height:1.45}.opt{background:#fff;border-radius:10px;padding:14px;margin:18px 0;box-shadow:0 1px 3px rgba(0,0,0,.08)}.opt p{margin:0 0 10px}.pair{display:grid;grid-template-columns:1.42fr 1fr;gap:10px;align-items:start}figure{margin:0}img{width:100%;height:auto;display:block;border-radius:4px}figcaption{font-size:13px;margin-top:6px;line-height:1.4}a{color:#9a3a14}ul{color:#4a3a32;padding-left:20px;line-height:1.5}li{margin-bottom:6px}textarea{width:100%;box-sizing:border-box;font:15px/1.45 system-ui,sans-serif;color:#2a1d18;background:#fffaf3;border:1px solid #e3d6c8;border-radius:6px;padding:10px;resize:vertical;margin:0 0 10px}button{font:inherit;font-size:15px;padding:8px 14px;border:0;border-radius:6px;background:#9a3a14;color:#fff;cursor:pointer}#copied{font-size:14px;color:#4a3a32;margin-left:8px}</style></head><body>
 <h1>Candlelight Kirtan · Thu Nov 19, 5–8 PM</h1><p>Bhakti Yoga Center, State College. Here are four different designs, each in two sizes: the feed size for WhatsApp and the Instagram feed, and the story size for Instagram Stories and WhatsApp Status. Reply to the person who sent you this link with the letter you like (A, B, C or D) and any changes.</p>
 
 <section class="opt"><h2>A · Marigold</h2><p>Bright cream, a marigold garland, three brass lamps on a bed of petals.</p><div class="pair">
@@ -24,9 +24,24 @@
 <figure><img src="Flyer-Candlelight-Kirtan-D-Studio-feed-1080x1350.jpg" alt="Option D feed: calm sand and blush flyer with a line drawing of a lamp, mridanga and kartals"><figcaption>Feed · <a href="Flyer-Candlelight-Kirtan-D-Studio-feed-1080x1350.png">PNG</a> · <a href="Flyer-Candlelight-Kirtan-D-Studio-feed-1080x1350.jpg">JPG</a></figcaption></figure>
 <figure><img src="Flyer-Candlelight-Kirtan-D-Studio-story-1080x1920.jpg" alt="Option D story: calm sand and blush flyer with a line drawing of a lamp, mridanga and kartals"><figcaption>Story · <a href="Flyer-Candlelight-Kirtan-D-Studio-story-1080x1920.png">PNG</a> · <a href="Flyer-Candlelight-Kirtan-D-Studio-story-1080x1920.jpg">JPG</a></figcaption></figure></div></section>
 
+<section class="opt" id="post-text"><h2>Suggested Instagram post text</h2><p>Paste this under the feed image when you post. It uses only the wording on the flyers, so change anything you like.</p>
+<textarea id="caption" readonly rows="16" aria-label="Suggested Instagram post text">🪔 Candlelight Kirtan 🪔
+
+A 3-hour kirtan in the holy month of Kartik. Join us!
+
+Thursday, November 19 · 5–8 PM
+Bhakti Yoga Center
+322B E. College Ave, State College
+
+Prasadam served
+
+#kirtan #candlelightkirtan #kartik #harekrishna #bhaktiyoga #statecollege</textarea>
+<p><button type="button" id="copy">Copy the text</button><span id="copied" aria-live="polite"></span></p></section>
+
 <h3>Good to know</h3><ul>
 <li>"Sanctified vegetarian food", "Dinner included" and "All are welcome" are gone. The food line now reads just "Prasadam served".</li>
 <li>The Hare Krishna mantra from the first design can be added back to whichever you pick.</li></ul>
 <h3>Saving on a phone</h3><p>Tap PNG or JPG, then press and hold the image and save it. The JPG is smaller and posts fine; the PNG is the full-quality original.</p>
-<p><a href="flyer-text.md">flyer-text.md</a>: the exact text on the flyers</p>
+<p><a href="flyer-text.md">flyer-text.md</a>: the exact text on the flyers, and the suggested post text</p>
+<script>const fit=()=>{const t=document.getElementById('caption');t.style.height='0';t.style.height=(t.scrollHeight+2)+'px'};fit();addEventListener('resize',fit);document.getElementById('copy').addEventListener('click',async()=>{const t=document.getElementById('caption'),s=document.getElementById('copied');try{await navigator.clipboard.writeText(t.value);s.textContent='Copied.'}catch(e){t.focus();t.select();t.setSelectionRange(0,t.value.length);let ok=false;try{ok=document.execCommand('copy')}catch(_){}s.textContent=ok?'Copied.':'Selected. Press and hold to copy.'}});</script>
 </body></html>
